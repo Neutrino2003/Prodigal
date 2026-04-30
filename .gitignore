@@ -1,0 +1,42 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+dist/
+build/
+__pypackages__/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+*.env
+!.env.example
+
+# Local data/logs
+*.log
+*.sqlite3
+*.db
+
+# Editor and OS noise
+.DS_Store
+.idea/
+.vscode/
+.codex
+
+test_api.py
+streamlit_app.py

@@ -1,0 +1,397 @@
+{
+  "conversations": [
+    {
+      "persona": "ACC1001",
+      "account_id": "ACC1001",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can get started?"
+        },
+        {
+          "user": "ACC1001",
+          "agent": "Thank you for providing your account ID. To ensure your security, I need to verify your identity. Could you please share your full name as it appears on the account?"
+        },
+        {
+          "user": "Nithin Jain",
+          "agent": "Thank you, Nithin. To complete the verification, I\u2019ll need one additional piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar number, or your pincode. Could you please provide one of these?"
+        },
+        {
+          "user": "1990-05-14",
+          "agent": "I can see your outstanding balance is \u20b91,250.75. How much would you like to pay today?"
+        },
+        {
+          "user": "500",
+          "agent": "Could you please provide your card details? I\u2019ll need the card number, CVV, expiry month and year, and the cardholder name as it appears on the card."
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Nithin Jain",
+          "agent": "Your payment of \u20b9500.00 has been successfully processed! Transaction ID: txn_1777563082567_vxwn1pr. Thank you for choosing ProdigalPay \u2014 have a wonderful day!"
+        }
+      ],
+      "verified": true,
+      "transaction_id": "txn_1777563082567_vxwn1pr",
+      "session_closed": true
+    },
+    {
+      "persona": "ACC1002",
+      "account_id": "ACC1002",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can get started?"
+        },
+        {
+          "user": "ACC1002",
+          "agent": "Thank you for providing your account ID. To ensure security, I need to verify your identity. Could you please share your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Rajarajeswari Balasubramaniam",
+          "agent": "Thank you, Rajarajeswari Balasubramaniam. To complete your verification, could you please provide one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode?"
+        },
+        {
+          "user": "1985-03-22",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 1 of 3. You have 2 attempt(s) remaining. Could you please double-check and provide your full name again, along with your date of birth, Aadhaar last 4 digits, or pincode?"
+        },
+        {
+          "user": "500",
+          "agent": "I understand you're providing a pincode, but I still need your full name as registered with us to proceed with verification. Could you please confirm your full name once more, along with your pincode (500)? Please ensure the name matches exactly as it appears on your account."
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Rajarajeswari Balasubramaniam",
+          "agent": "I see you've shared card details, but before we proceed with payment, I need to verify your identity first. Could you please confirm your full name \u2014 exactly as registered \u2014 and one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode? Once verified, I\u2019ll help you with your payment."
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "ACC1003",
+      "account_id": "ACC1003",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please share your account ID so I can look up your details?"
+        },
+        {
+          "user": "ACC1003",
+          "agent": "Thank you for providing your account ID. To ensure security, I need to verify your identity. Could you please share your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Sarah Chen",
+          "agent": "Thank you, Sarah. To complete your verification, I\u2019ll need one more piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar, or your pincode. Could you please provide one of these?"
+        },
+        {
+          "user": "1992-11-07",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 1 of 3. You have 2 attempt(s) remaining. Could you please double-check your full name and date of birth, and try again?"
+        },
+        {
+          "user": "500",
+          "agent": "I understand you may be sharing your pincode, but to proceed with verification, I need your full name and one verification factor together. Could you please confirm your full name again, followed by your pincode (or date of birth or Aadhaar last 4 digits)? For example: \"Sarah Chen, pincode 500001\"."
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Sarah Chen",
+          "agent": "Thank you for providing those details. To clarify, I need to verify your identity first before proceeding with payment. Could you please confirm your full name and one verification factor \u2014 such as your date of birth (YYYY-MM-DD), Aadhaar last 4 digits, or pincode? \n\nThe card details you shared will be used later for payment, but we must complete identity verification first for security."
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "ACC1004",
+      "account_id": "ACC1004",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can look up your details?"
+        },
+        {
+          "user": "ACC1004",
+          "agent": "Thank you for providing your account ID. To ensure your security, I need to verify your identity. Could you please share your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Raj Kumar",
+          "agent": "Thank you, Raj Kumar. To complete your verification, I\u2019ll need one more piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar, or your pincode. Could you please provide one of these?"
+        },
+        {
+          "user": "1988-02-29",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 1 of 3. You have 2 attempt(s) remaining. Could you please double-check and provide your full name again, along with your date of birth, Aadhaar last 4 digits, or pincode?"
+        },
+        {
+          "user": "500",
+          "agent": "I understand you're providing a number, but for identity verification, I need your full name (as registered) and one of the following: date of birth (YYYY-MM-DD), Aadhaar last 4 digits, or pincode.  \n\nCould you please confirm your full name and then provide one of the verification factors?"
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Raj Kumar",
+          "agent": "I see you've shared card details, but before we can process a payment, we need to verify your identity first. Could you please confirm your full name again and provide one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode? Once verified, I\u2019ll help you with your payment."
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "Happy Path - ACC1001",
+      "account_id": "ACC1001",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can get started?"
+        },
+        {
+          "user": "ACC1001",
+          "agent": "Thank you for providing your account ID. To ensure security, I need to verify your identity. Could you please provide your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Nithin Jain",
+          "agent": "Thank you, Nithin. To complete your verification, I\u2019ll need one additional piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar, or your pincode. Please share one of these."
+        },
+        {
+          "user": "1990-05-14",
+          "agent": "I can see your outstanding balance is \u20b91,250.75. How much would you like to pay today?"
+        },
+        {
+          "user": "500",
+          "agent": "Could you please provide your card details? I\u2019ll need the card number, CVV, expiry month and year, and the cardholder name as it appears on the card."
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Nithin Jain",
+          "agent": "Your payment of \u20b9500.00 has been successfully processed! Transaction ID: txn_1777563402954_flzc5ru. Thank you for choosing ProdigalPay \u2014 have a wonderful day!"
+        }
+      ],
+      "verified": true,
+      "transaction_id": "txn_1777563402954_flzc5ru",
+      "session_closed": true
+    },
+    {
+      "persona": "Failed Verification - ACC1002",
+      "account_id": "ACC1002",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can look up your details?"
+        },
+        {
+          "user": "ACC1002",
+          "agent": "Thank you for providing your account ID. To ensure your security, I need to verify your identity. Could you please provide your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Rajarajeswari Balasubramaniam",
+          "agent": "Thank you, Rajarajeswari Balasubramaniam. To complete your verification, could you please provide one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode?"
+        },
+        {
+          "user": "1990-01-01",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 1 of 3. You have 2 attempt(s) remaining. Could you please double-check your full name and date of birth, and try again?"
+        },
+        {
+          "user": "Rajarajeswari Balasubramaniam",
+          "agent": "Thank you for confirming your name, Rajarajeswari Balasubramaniam. To proceed, please provide your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode again. Let me know how I can assist!"
+        },
+        {
+          "user": "1990-01-02",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 2 of 3. You have 1 attempt(s) remaining. Could you please confirm your full name and verification detail one final time? I\u2019m here to help you get this resolved."
+        },
+        {
+          "user": "Rajarajeswari Balasubramaniam",
+          "agent": "Thank you for your patience, Rajarajeswari Balasubramaniam. For your final attempt, please provide your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode. We\u2019re almost there \u2014 I\u2019ll make sure this is resolved for you."
+        },
+        {
+          "user": "1990-01-03",
+          "agent": "I'm sorry, I was unable to verify your identity after 3 attempts. For your security, I cannot proceed further. Please visit your nearest branch or call our support line. Thank you for your understanding, and I wish you a wonderful day."
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": true
+    },
+    {
+      "persona": "Wrong Account ID",
+      "account_id": "INVALID999",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please share your account ID so I can get started?"
+        },
+        {
+          "user": "INVALID999",
+          "agent": "I'm sorry, but I couldn't find an account with that ID. Could you please double-check and provide the correct account ID? It usually starts with \"ACC\" followed by numbers. Let me know how I can assist!"
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "Zero Balance - ACC1003",
+      "account_id": "ACC1003",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! Welcome to ProdigalPay. To assist you with your outstanding balance, could you please provide your account ID?"
+        },
+        {
+          "user": "ACC1003",
+          "agent": "Thank you for providing your account ID. To ensure security, I need to verify your identity. Could you please share your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Sarah Chen",
+          "agent": "Thank you, Sarah. To complete your verification, I\u2019ll need one additional piece of information: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode. Could you please provide one of these?"
+        },
+        {
+          "user": "1992-11-07",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 1 of 3. You have 2 attempt(s) remaining. Could you please double-check and provide your full name again, along with your date of birth, Aadhaar last 4 digits, or pincode?"
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "Leap Year DOB - ACC1004",
+      "account_id": "ACC1004",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can look up your details?"
+        },
+        {
+          "user": "ACC1004",
+          "agent": "Thank you for providing your account ID. To proceed with verifying your identity, I\u2019ll need your full name as registered with us, along with one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode. Could you please share those details?"
+        },
+        {
+          "user": "Raj Kumar",
+          "agent": "Thank you, Raj Kumar. To complete your verification, I\u2019ll need one additional piece of information: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode. Could you please provide one of these?"
+        },
+        {
+          "user": "1988-02-29",
+          "agent": "I'm sorry, the details you provided don't match our records. This was attempt 1 of 3. You have 2 attempt(s) remaining. Could you please double-check your full name and date of birth, and try again?"
+        },
+        {
+          "user": "500",
+          "agent": "I understand you may be providing your pincode, but to proceed with verification, I need your full name (as registered) along with one of the following: date of birth (YYYY-MM-DD), last 4 digits of Aadhaar, or pincode.  \n\nYou previously provided \"Raj Kumar\" as your name \u2014 could you please confirm if that\u2019s correct, and then share your pincode (e.g., \"500001\")?"
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Raj Kumar",
+          "agent": "I see you've shared card details, but before we proceed with payment, we must first verify your identity. Could you please confirm your full name (as registered) and one of the following: date of birth (YYYY-MM-DD), last 4 digits of your Aadhaar, or pincode? This step is required before we can process any payment."
+        }
+      ],
+      "verified": false,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "Invalid Card - ACC1001",
+      "account_id": "ACC1001",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can get started?"
+        },
+        {
+          "user": "ACC1001",
+          "agent": "Thank you for providing your account ID. To ensure your security, I need to verify your identity. Could you please provide your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Nithin Jain",
+          "agent": "Thank you, Nithin. To complete your verification, I\u2019ll need one more piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar, or your pincode. Please share one of these."
+        },
+        {
+          "user": "1990-05-14",
+          "agent": "I can see your outstanding balance is \u20b91,250.75. How much would you like to pay today?"
+        },
+        {
+          "user": "500",
+          "agent": "Could you please provide your card details so I can process your payment? I\u2019ll need the card number, CVV, expiry month and year, and the cardholder name as it appears on the card."
+        },
+        {
+          "user": "1234567890123456 123 12/2027 Test User",
+          "agent": "I'm sorry, but the card number you provided isn't recognized. Could you please re-enter your card number, ensuring it\u2019s correct and from a supported card type? I\u2019ll also need the CVV, expiry month and year, and cardholder name again."
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Nithin Jain",
+          "agent": "Your payment of \u20b9500.00 has been successfully processed! Transaction ID: txn_1777563715992_j9snhk6. Thank you for choosing ProdigalPay \u2014 have a wonderful day!"
+        }
+      ],
+      "verified": true,
+      "transaction_id": "txn_1777563715992_j9snhk6",
+      "session_closed": true
+    },
+    {
+      "persona": "Expired Card - ACC1001",
+      "account_id": "ACC1001",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can get started?"
+        },
+        {
+          "user": "ACC1001",
+          "agent": "Thank you for providing your account ID. To ensure security, I need to verify your identity. Could you please share your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Nithin Jain",
+          "agent": "Thank you, Nithin. To complete your verification, I\u2019ll need one more piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar, or your pincode. Please share one of these."
+        },
+        {
+          "user": "1990-05-14",
+          "agent": "I can see your outstanding balance is \u20b91,250.75. How much would you like to pay today?"
+        },
+        {
+          "user": "500",
+          "agent": "Could you please provide your card details so I can process your payment? I\u2019ll need the card number, CVV, expiry month and year, and the cardholder name as it appears on the card."
+        },
+        {
+          "user": "4532015112830366 123 01/2020 Nithin Jain",
+          "agent": "I'm sorry, but the card expiry date you provided appears to be outdated. Could you please provide the correct expiry month and year for a valid card?"
+        }
+      ],
+      "verified": true,
+      "transaction_id": null,
+      "session_closed": false
+    },
+    {
+      "persona": "Insufficient Balance - ACC1001",
+      "account_id": "ACC1001",
+      "conversation_history": [
+        {
+          "user": "",
+          "agent": "Hello! I'm here to help you with your outstanding balance. Could you please provide your account ID so I can get started?"
+        },
+        {
+          "user": "ACC1001",
+          "agent": "Thank you for providing your account ID. To ensure your security, I need to verify your identity. Could you please share your full name as registered with us? Additionally, I\u2019ll need one of the following: your date of birth (YYYY-MM-DD), the last four digits of your Aadhaar, or your pincode."
+        },
+        {
+          "user": "Nithin Jain",
+          "agent": "Thank you, Nithin. To complete your verification, I\u2019ll need one more piece of information: your date of birth (in YYYY-MM-DD format), the last four digits of your Aadhaar, or your pincode. Please share one of these."
+        },
+        {
+          "user": "1990-05-14",
+          "agent": "Thank you for verifying your identity, Nithin. I can see your outstanding balance is \u20b91,250.75. How much would you like to pay today?"
+        },
+        {
+          "user": "99999",
+          "agent": "Could you please type the exact amount you'd like to pay as a number? For example: 3200 or 3,200.50."
+        },
+        {
+          "user": "500",
+          "agent": "Thank you for confirming the amount. To proceed with your payment of \u20b9500, I\u2019ll need your card details:  \n\n- Card number (digits only)  \n- CVV  \n- Expiry month and year  \n- Cardholder name as it appears on the card  \n\nPlease provide each detail when you\u2019re ready."
+        },
+        {
+          "user": "4532015112830366 123 12/2027 Nithin Jain",
+          "agent": "Your payment of \u20b9500.00 has been successfully processed! Transaction ID: txn_1777563799925_mb0tnd1. Thank you for choosing ProdigalPay \u2014 have a wonderful day!"
+        }
+      ],
+      "verified": true,
+      "transaction_id": "txn_1777563799925_mb0tnd1",
+      "session_closed": true
+    }
+  ],
+  "aggregate": {
+    "total": 12,
+    "verified": 5,
+    "paid": 4
+  }
+}
