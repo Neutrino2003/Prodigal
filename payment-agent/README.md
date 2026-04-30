@@ -18,7 +18,6 @@ LLM decision.
 7. [File Guide](#7-file-guide)
 8. [Sample Conversations](#8-sample-conversations)
 9. [Token Optimisation — State-Specific Prompts](#9-token-optimisation--state-specific-prompts)
-10. [Further Meaningful Improvements](#10-further-meaningful-improvements)
 
 ---
 
@@ -56,7 +55,7 @@ python cli.py
 ```dotenv
 NVIDIA_API_KEY=nvapi-xxxxxxxxxxxx
 NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
-LLM_MODEL=meta/llama-3.3-70b-instruct
+LLM_MODEL=qwen/qwen3-next-80b-a3b-instruct
 PAYMENT_API_BASE_URL=https://payments.internal.prodigal.ai
 MAX_VERIFICATION_ATTEMPTS=3
 REQUEST_TIMEOUT_SECONDS=10
@@ -137,7 +136,8 @@ Results are saved to `eval/results/eval_<timestamp>.json`.
 | Expired Card – ACC1001 | ACC1001 | Expired 01/2020 → rejected |
 | Insufficient Balance – ACC1001 | ACC1001 | Amount > balance → corrected |
 
-### Latest Results
+> [!NOTE]
+> **Leap Years:** When handling leap year birthdates (e.g., Feb 29), the system defaults to February 28th during non-leap years as per standard financial practice, and prompts the user if necessary to ensure compliance.
 
 | Metric | Value |
 |---|---|
