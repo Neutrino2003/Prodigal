@@ -1,7 +1,5 @@
 # Design Document — ProdigalPay Collection Agent
 
-> **Version:** 1.1 · **Author:** Nithindas · **Date:** 2026-04-30
-
 ---
 
 ## Table of Contents
